@@ -10,7 +10,6 @@ class TextFieldInput extends React.Component {
   render() {
     const style = {
       input: {
-        margin: "0px",
         fontSize: "16px",
         lineHeight: "19px",
         borderRadius: "12.5px",

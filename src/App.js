@@ -38,6 +38,8 @@ class App extends React.Component {
         break;
       case "tone":
         this.setState({ tone: target });
+        break
+      default:
     }
   }
   formHandler() {
@@ -77,7 +79,8 @@ class App extends React.Component {
       })
       .catch((err) => {
         this.setState({ loading: false });
-        Notification.open("مشکلی پیش آمده!", err, null, null, "success");
+        const errorMessage = err.message || "مشکلی پیش آمده!";
+        Notification.open("مشکلی پیش آمده!", errorMessage, null, null, "danger");
       });
   }
   render() {

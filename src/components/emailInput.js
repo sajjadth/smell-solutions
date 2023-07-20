@@ -10,15 +10,13 @@ class EmailInput extends React.Component {
   }
   s;
   validateEmail() {
-    return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(
+    return /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(
       this.props.email
     );
   }
   render() {
     const style = {
       input: {
-        transition: "all 2s",
-        margin: "0",
         fontSize: "16px",
         lineHeight: "19px",
         borderRadius: "12.5px",
