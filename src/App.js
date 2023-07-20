@@ -53,7 +53,7 @@ class App extends React.Component {
     }
     this.setState({ loading: true });
     fetch(
-      "https://sjhqfmpdjtxcjuwqwxii.nhost.run/v1/functions/sendEmail?email=" +
+      "https://smell-solutions.sajjadth.workers.dev/?email=" +
         this.state.email
     )
       .then((res) => res.json())
