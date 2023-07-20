@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.7ac56c55.css",
-    "main.js": "./static/js/main.ba7f6b9b.js",
+    "main.css": "./static/css/main.fae2afb6.css",
+    "main.js": "./static/js/main.dd354e29.js",
     "static/media/priscilla.jpg": "./static/media/priscilla.5d737006891c05fcde0d.jpg",
     "static/media/Sahel-Bold.eot": "./static/media/Sahel-Bold.542b96d9928b115e0cab.eot",
     "static/media/Sahel-Bold.ttf": "./static/media/Sahel-Bold.49063e5bf0cd49628ac1.ttf",
@@ -15,11 +15,11 @@
     "index.html": "./index.html",
     "static/media/down-arrow.svg": "./static/media/down-arrow.14214ad31414c6d01c4f49b00540ec02.svg",
     "static/media/loading.svg": "./static/media/loading.6066fe40b3a437b8b5ca8548b15b6d5c.svg",
-    "main.7ac56c55.css.map": "./static/css/main.7ac56c55.css.map",
-    "main.ba7f6b9b.js.map": "./static/js/main.ba7f6b9b.js.map"
+    "main.fae2afb6.css.map": "./static/css/main.fae2afb6.css.map",
+    "main.dd354e29.js.map": "./static/js/main.dd354e29.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ac56c55.css",
-    "static/js/main.ba7f6b9b.js"
+    "static/css/main.fae2afb6.css",
+    "static/js/main.dd354e29.js"
   ]
 }
